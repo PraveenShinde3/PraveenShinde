@@ -47,11 +47,11 @@ const Navbar = () => {
           }`}
           id="navbar-default"
         >
-          <ul className="flex md:gap-10 flex-col p-4 mt-4 border bg-transparent border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+          <ul className="flex md:gap-10 flex-col p-4 mt-4 border bg-transparent  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
             <li>
               <NavLink
                 to={"/"}
-                className=" text-base block py-2 pl-3 pr-4 text-black rounded md:bg-transparent md:p-0 dark:text-white active:text-blue-500"
+                className=" text-base block py-2 pl-3 pr-4 text-black md:bg-transparent md:p-0 "
                 aria-current="page"
                 onClick={() => {
                   setopen(!open);
@@ -67,7 +67,7 @@ const Navbar = () => {
               <NavLink
                 to={"/projects"}
                 href="www.example.com"
-                className="text-base block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 "
+                className="text-base block py-2 pl-3 pr-4 text-black  md:border-0 md:p-0 "
                 onClick={() => {
                   setopen(!open);
                 }}
