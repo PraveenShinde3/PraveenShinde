@@ -16,7 +16,7 @@ const FeatureProjects = () => {
       <div>
         <ProjectBox
           img={BinaryCode}
-          title="Code crack"
+          title="Code crack (Ongoing)"
           description="Website to prepare your coding interview which covers DSA and step wise guide "
           linkText="code-crack.pages.dev"
           tags={["React js", "Tailwind css"]}
@@ -27,7 +27,7 @@ const FeatureProjects = () => {
           title="Notes Web App"
           description="Effortlessly store and manage your notes, to-do lists, ideas, and anything else you need to remember, all in one accessible platform."
           linkText="notes-webapp.pages.dev"
-          tags={["React js", "Tailwind css","JavaScript"]}
+          tags={["React js", "Tailwind css", "JavaScript"]}
           linkUrl="https://notes-webapp.pages.dev/"
         />
         <NavLink to={"/projects"}>More Projects ↗</NavLink>

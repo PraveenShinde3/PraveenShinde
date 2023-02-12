@@ -6,7 +6,7 @@ const Navbar = () => {
   let [open, setopen] = useState(true);
 
   return (
-    <nav className=" z-10 w-full fixed bg-[#e6e2d9] border-b-[3px] border-black  px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav className=" z-10 w-full fixed bg-[#e6e2d9] border-b-[3px] border-black  px-2 sm:px-4 py-2.5">
       <div className="px-5 md:w-9/12 container flex flex-wrap items-center justify-between mx-auto">
         <a className="flex items-center" href="/">
           <span
