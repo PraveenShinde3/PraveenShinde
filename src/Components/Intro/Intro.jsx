@@ -20,7 +20,7 @@ const Intro = () => {
   };
 
   return (
-    <div className="py-10 md:py-20 md:px-20" data-aos="fade-up">
+    <div className="py-10 lg:py-20 lg:px-20" data-aos="fade-up">
       <p className="px-2 text-xl">Praveen Shinde,</p>
       <p className=" text-6xl font-bold py-10">
         Software Developer building future with code.
@@ -54,10 +54,10 @@ const Intro = () => {
           className="flex h-10 p-2 gap-2 w-fit cursor-pointer "
           onClick={copyToClipboard}
         >
-          <img className="w-fit" src={CopyIcon} alt="" />
           <p className="underline underline-offset-4 font-bold ">
-            @shindepraveen002@gmail.com
+            shindepraveen002@gmail.com
           </p>
+          <img className="w-fit" src={CopyIcon} alt="" />
         </div>
       </div>
     </div>

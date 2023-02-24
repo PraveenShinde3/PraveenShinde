@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="px-5 md:w-9/12 container flex flex-wrap items-center justify-between mx-auto">
         <a className="flex items-center" href="/">
           <span
-            className="self-center text-3xl  text-black whitespace-nowrap"
+            className="self-center text-2xl lg:text-3xl text-black whitespace-nowrap"
             style={{ fontFamily: "'Yesteryear', cursive" }}
           >
             Praveen
@@ -19,7 +19,7 @@ const Navbar = () => {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className={`"inline-flex items-center p-1 ml-3 text-sm ${
+          className={`"inline-flex items-center p-[1px] ml-3 text-sm ${
             open ? "text-black bg-[#e6e2d9]" : "text-[#e6e3d9] bg-black"
           } md:hidden  focus:outline-none ring-2 ring-black  "`}
           aria-controls="navbar-default"

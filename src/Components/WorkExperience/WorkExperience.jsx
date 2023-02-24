@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 const WorkExperience = () => {
   return (
-    <div data-aos="fade-up" className="md:px-20">
+    <div data-aos="fade-up" className="lg:px-20">
       <div>
         <p className=" text-3xl md:text-4xl font-bold py-10">Work Experience</p>
       </div>

@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const FeatureProjects = () => {
   return (
-    <div className=" md:px-20" data-aos="fade-up">
+    <div className=" lg:px-20" data-aos="fade-up">
       <div className="flex">
         <img className="w-10" src={StarburstShape} alt="" />
         <p className=" text-3xl md:text-6xl font-bold py-10">Feature Project</p>

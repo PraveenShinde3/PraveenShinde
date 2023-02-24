@@ -5,7 +5,7 @@ const ExperienceBox = (props) => {
   return (
     <div
       data-aos="fade-right"
-      className="my-10 border-[3px] border-black p-5 flex flex-col md:flex-row gap-10 hover:bg-slate-100"
+      className="my-10 border-[3px] border-black p-5 flex flex-col lg:flex-row gap-10 hover:bg-slate-100"
     >
       <div className="w-full md:w-2/12">
         <p>{props.years}</p>
