@@ -1,8 +1,9 @@
 import React from "react";
 import ProjectBox from "../../Components/FeatureProjects/ProjectBox";
-import BinaryCode from "../../images/BinaryCode.svg";
-import Notes from "../../images/Notes.svg";
-import Password from "../../images/Password.svg";
+import CodeCrack from "../../images/CodeCrackScreen.svg";
+import Notes from "../../images/NotesWebApp.svg";
+import Password from "../../images/RandomPassword.svg";
+import WebPageSnap from "../../images/WebPageSnap.svg";
 import DockerImage from "../../images/cloud.svg";
 
 const Project = () => {
@@ -11,12 +12,20 @@ const Project = () => {
       <div className=" mx-auto px-6 py-20 md:px-10 md:py-24 md:w-10/12">
         <p className=" text-3xl md:text-4xl font-bold py-10">Project</p>
         <ProjectBox
-          img={BinaryCode}
-          title="Code crack"
+          img={CodeCrack}
+          title="Code crack (On-going)"
           description="Website to prepare your coding interview which covers DSA and step wise guide "
           linkText="code-crack.pages.dev"
           tags={["React js", "Tailwind css"]}
           linkUrl="https://code-crack.pages.dev/"
+        />
+        <ProjectBox
+          img={WebPageSnap}
+          title="Web Page Snap"
+          description="Website to to take picture perfect screenshot of any website using the URL of that website"
+          linkText="webpagesnap.pages.dev"
+          tags={["React js", "Tailwind css", "Node Js", "Puppeteer"]}
+          linkUrl="https://webpagesnap.pages.dev/"
         />
         <ProjectBox
           img={Notes}
@@ -26,14 +35,14 @@ const Project = () => {
           tags={["React js", "Tailwind css", "JavaScript"]}
           linkUrl="https://notes-webapp.pages.dev/"
         />
-        <ProjectBox
+        {/* <ProjectBox
           img={DockerImage}
           title="Dockerization of Node js App"
           description="Creates secure, random passwords for users to use for their various online accounts and information. The goal of the project is to provide users with a tool to easily generate strong and unique passwords, thereby increasing the security of their online accounts."
           linkText="Blog "
           tags={["Docker", "Linux", "Azure", "Node js"]}
           linkUrl="https://medium.com/@shindepraveen002/step-by-step-guide-to-dockerizing-a-node-js-application-115b903d8460"
-        />
+        /> */}
         <ProjectBox
           img={Password}
           title="Random Password Generator"

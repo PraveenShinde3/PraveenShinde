@@ -1,8 +1,8 @@
 import React from "react";
 import StarburstShape from "../../images/StarburstShape.svg";
 import ProjectBox from "./ProjectBox";
-import BinaryCode from "../../images/BinaryCode.svg";
-import Notes from "../../images/Notes.svg";
+import CodeCrack from "../../images/CodeCrackScreen.svg";
+import WebPageSnap from "../../images/WebPageSnap.svg";
 import "aos/dist/aos.css";
 import { NavLink } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const FeatureProjects = () => {
       </div>
       <div>
         <ProjectBox
-          img={BinaryCode}
+          img={CodeCrack}
           title="Code crack (Ongoing)"
           description="Website to prepare your coding interview which covers DSA and step wise guide "
           linkText="code-crack.pages.dev"
@@ -23,12 +23,12 @@ const FeatureProjects = () => {
           linkUrl="https://code-crack.pages.dev/"
         />
         <ProjectBox
-          img={Notes}
-          title="Notes Web App"
-          description="Effortlessly store and manage your notes, to-do lists, ideas, and anything else you need to remember, all in one accessible platform."
-          linkText="notes-webapp.pages.dev"
-          tags={["React js", "Tailwind css", "JavaScript"]}
-          linkUrl="https://notes-webapp.pages.dev/"
+          img={WebPageSnap}
+          title="Web Page Snap"
+          description="Website to to take picture perfect screenshot of any website using the URL of that website"
+          linkText="webpagesnap.pages.dev"
+          tags={["React js", "Tailwind css", "Node Js", "Puppeteer"]}
+          linkUrl="https://webpagesnap.pages.dev/"
         />
         <NavLink to={"/projects"}>More Projects ↗</NavLink>
       </div>

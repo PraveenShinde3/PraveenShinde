@@ -10,14 +10,14 @@ const ProjectBox = (props) => {
   return (
     <div
       data-aos="fade-up"
-      className="flex gap-10 border-[3px] border-black p-5 my-10 hover:bg-slate-100 "
+      className="flex lg:gap-10 p-2 flex-col lg:flex-row border-[3px] border-black  my-10 hover:bg-slate-100 "
     >
-      <div className="w-1/12 hidden lg:block">
+      <div className="w-full lg:w-6/12">
         <img className="w-full " src={props.img} alt="" />
       </div>
-      <div className="w-11/12">
+      <div className="w-full lg:w-6/12 px-4 py-4 flex flex-col justify-center lg:items-start">
         <h1 className="text-xl px-2 font-bold">{props.title}</h1>
-        <p className="text-lg opacity-70 p-2">{props.description}</p>
+        <p className="text-md opacity-70 p-2">{props.description}</p>
         <div className="px-2">
           <Tag tags={props.tags} />
         </div>
